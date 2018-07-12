@@ -8,11 +8,13 @@ This project is a practice of SQL and data analysis. The project analyzes the lo
 ### Steps taken in the project
 
 * Data was extracted from the database using SQL.
+
 `Find the closer city in database:`
+~~~~
 SELECT *
 FROM city_list
 WHERE city IN ('Memphis')
-
+~~~~
 `Extract local data from database:`
 ~~~~
 SELECT c.year, c.avg_temp
@@ -25,8 +27,9 @@ WHERE city IN ('Memphis')
 SELECT *
 FROM global_data
 ~~~~
-* Total temperature averages, maximums and minima were extracted from the database using SQL.
-`Calculate average total, maximun and minimun of Memphis temperatures.`
+* Total temperature averages, maximus and minimous were extracted from the database using SQL.
+
+`Calculate average total, maximus and minimous of Memphis temperatures.`
 ~~~~
 SELECT AVG(avg_temp), MAX(avg_temp), MIN(avg_temp)
 FROM city_data
