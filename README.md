@@ -27,15 +27,15 @@ WHERE city IN ('Memphis')
 SELECT *
 FROM global_data
 ~~~~
-* Total temperature averages, maximus and minimous were extracted from the database using SQL.
+* Total temperature averages, maximus and minimus were extracted from the database using SQL.
 
-`Calculate average total, maximus and minimous of Memphis temperatures.`
+`Calculate average total, maximus and minimus of Memphis temperatures.`
 ~~~~
 SELECT AVG(avg_temp), MAX(avg_temp), MIN(avg_temp)
 FROM city_data
 WHERE city IN ('Memphis') AND avg_temp IS NOT NULL
 ~~~~
-`Calculate average total, maximun and minimun of global temperatures.`
+`Calculate average total, maximum and minimum of global temperatures.`
 ~~~~
 SELECT AVG(avg_temp), MAX(avg_temp), MIN(avg_temp)
 FROM global_data
