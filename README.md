@@ -44,11 +44,13 @@ WHERE  avg_temp IS NOT NULL
 * The data extracted from the database was imported into Google documents.
 * First I used the AVERAGE function in cells C3 to C12 (AVERAGE (C3: C12)), and then I dragged the formula down to create the moving averages in a range of 10 years. Then I used the AVERAGE function in cells D3 to D22 (AVERAGE (D3: CD2)), and then I dragged the formula down to create the moving averages in a range of 20 years. I did this for the global temperature and the local temperature.
 * A line chart was created to perform the analysis of the data.One with the moving averages of 10 years and other with the moving averages of 20 years.
+
 ![Temperature Global average move 10 years](Global10.png)
 ![Temperature Global average move 20 years](Global20.png)
 ![Temperature Memphis average move 10 years](Memphis10.png)
 ![Temperature Memphis average move 10 years](Memphis20.png)
 ![Temperature Global vs Memphis](MemphisVsGlobal.png)
+
 ### Observations
 
 * The average temperature in the city where I live in Memphis is hotter than the average global temperature.
